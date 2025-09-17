@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.imagecover{
+    width: 100%;
+    background: url(https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1240w,f_auto,q_auto:best/newscms/2023_09/3596622/230302-gaming-consoles-bd-2x1.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 600px;
+    width: 1265px;
+}
+
+.nav{ 
+    background-color: #5b6e74;
+    width: 2000;
+    height: 60px;
+    margin: auto;
+}
+
+.icon {
+    width: 200px;
+    height: 70px;
+    float: left;
+}
+
+.logo{
+    font-size: 30px;
+    font-family: sans-serif;
+    padding-left: 20px;
+    padding: auto;
+    padding-top: 15px;
+}
+
+.logo a{
+    text-decoration: none;
+    color: #ebded4;
+}
+
+.buttons{
+    width : 350px;
+    height: 100px;
+    float: left;
+}
+ul{
+    display: flex;
+    justify-content: right;
+    align-items: right;
+}
+ul li{
+    padding-top: 10px;
+    padding-right: 50px;
+    list-style: none;
+    font-size: 20px;
+    margin-top: 10px;
+} 
+
+ul li a{
+    text-decoration: none;
+    color: #ebded4;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.bottom
+  {
+   width: 96.85%;
+   background-color :#5b6e74;
+   text-align: left ;
+   color:#ebded4;
+   padding: 20px;
+ }    
+
+
+.name {
+  color:#ebded4;
+  position: absolute;
+  font-family: sans-serif;
+  font-size: 70px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.p1{
+    padding-left: 100px;
+    padding-top: 30px;
+    text-align: center;
+}
+.check{
+    color:black;
+    text-align: center;
+    justify-content: center;
+}
+
+.contactbox {
+      background-color:  #5b6e74;
+      border: 5px solid #ddd;
+      border-radius: 8px;
+      margin: 100px;
+      margin-left: 300px;
+      width: 50%;
+      height: 230px;
+      text-align: center;
+    }
+.contactbox h1 {
+      margin-top: 20px;
+      font-size: 24px;
+    }
+.contactdetails {
+      margin-bottom: 20px;
+    }
+.contactdetails p {
+      margin: 20px ;
+      font-size: 16px;
+      color:#ebded4;
+    }
+.social {
+      display: flex;
+      gap: 50px;
+      justify-content: center;
+    }
+.social a {
+      width: 40px;
+      height: 40px;
+      text-decoration: none;
+    }
+.social img {
+      width: 100%;
+      height: 100%;
+    }
+
+    
+.products {
+      margin-top: 10px;
+      padding: 10px;
+      display: flex;
+      gap: 20px;
+ }
+    
+
+.image {
+    margin-top: 10px;
+    margin-left: 18px;
+      width: 200px;
+      height: 200px;
+      border: 2px solid #fff;
+      border-radius: 8px;
+    }
+
+.price {
+      font-weight: bold;
+      font-size: 18px;
+    }
+.availability {
+      font-style: italic;
+    }
+
+.Description{
+        font-size: small;
+        width: 220px;
+        margin-left: 3px;
+    }
+.product1{
+        background-color:cornsilk;
+      border-radius: 10px;
+      overflow: hidden;
+      width:500px;
+      height:600px;
+    }
+.product1:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 16px rgb(63, 62, 62, 0.1);
+    }
+
+.product2{
+    background-color: beige;
+      border-radius: 10px;
+      overflow: hidden;
+      width:500px;
+      height:600px;
+    }
+.product2:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 16px rgb(63, 62, 62, 0.1);
+    }
+
+
+.product3{
+    background-color: bisque;
+      border-radius: 10px;
+      overflow: hidden;
+      width:500px;
+      height:600px;
+    }
+.product3:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 16px rgb(63, 62, 62, 0.1);
+    }
+
+
+.product4{
+    background-color: blanchedalmond;
+      border-radius: 10px;
+      overflow: hidden;
+      width:500px;
+      height:600px;
+    }
+.product4:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 16px rgb(63, 62, 62, 0.1);
+    }
+
+.product5{
+    background-color: burlywood;
+      border-radius: 10px;
+      overflow: hidden;
+      width:500px;
+      height:600px;
+    }
+.product5:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 16px rgb(63, 62, 62, 0.1);
+    }
+
+.ChatBot{
+  font-family: Arial, sans-serif;
+  background-color: #5b6e74;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 10px;
+}
+
+.container {
+  width: 400px;
+  height: 500px;
+  background-color: white;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+
+.chat{
+  flex: 1;
+  padding: 10px;
+  border-bottom: 1px ;
+}
+
+.input-area{
+  display: flex;
+  padding: 10px;
+  border-top: 1px solid #ccc;
+}
+
+#input {
+  flex: 1;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.user-message {
+  background-color: #e9f9dc;
+  padding: 8px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  max-width: 80%;
+}
